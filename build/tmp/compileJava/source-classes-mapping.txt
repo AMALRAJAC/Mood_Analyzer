@@ -1,4 +1,2 @@
 MoodAnalysis.java
  MoodAnalysis
-MoodAnalysisException.java
- MoodAnalysisException

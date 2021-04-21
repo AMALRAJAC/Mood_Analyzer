@@ -1,33 +1,24 @@
 public class MoodAnalysis {
     public String message;
 
-    public String MoodAnalyser(String message) throws MoodAnalysisException {
+    public String MoodAnalyser(String message) {
 
         this.message = message;
         return analyzeMood();
     }
 
-    private String analyzeMood() throws MoodAnalysisException {
+    private String analyzeMood(){
 
-        try {
+        if (message.contains("sad")) {
+            return "SAD";
 
-            if (message.contains("sad")) {
-                return "SAD";
-
-            } else if (message.contains("happy")) {
-                return "HAPPY";
-            }
-            else{
-                throw new MoodAnalysisException("invalid entry");
-            }
-        } catch ( Exception ex) {
-          System.out.println("Exception occurred: "+ex);
-
+        } else {
+            return "HAPPY";
         }
 
-        return "HAPPY";
     }
 }
+
 
 
 
