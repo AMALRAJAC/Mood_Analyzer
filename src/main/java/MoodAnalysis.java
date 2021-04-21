@@ -3,12 +3,6 @@ public class MoodAnalysis {
 
     public String MoodAnalyser(String message) {
 
-        this.message = message;
-        return analyzeMood();
-    }
-
-    private String analyzeMood(){
-
         if (message.contains("sad")) {
             return "SAD";
 
