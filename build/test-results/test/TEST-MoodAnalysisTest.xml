@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MoodAnalysisTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-17T10:51:55" hostname="DESKTOP-9F42HSG" time="0.023">
+  <properties/>
+  <testcase name="moodAnalysisNUllMood" classname="MoodAnalysisTest" time="0.023"/>
+  <system-out><![CDATA[Exception occurred: MoodAnalysisException: invalid mood
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
